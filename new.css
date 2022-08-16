@@ -10,13 +10,13 @@ header, footer {
  font-size: large;
  text-align: center;
  padding: 0.3em 0;
- background-color: #04AA6D;
+ background-color: red;
  color: #000000;
 }
 
-nav { background: #1E90FF; }
-main { background: #1E90FF; }
-aside { background: #1E90FF; }
+nav { background: red; }
+main { background: white; }
+aside { background: red; }
 
 /* Bordered form */
 form {
