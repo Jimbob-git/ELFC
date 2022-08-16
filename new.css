@@ -89,7 +89,7 @@ button:hover {
 	cursor: pointer;
 	outline: none;
 	color:#000000;
-	background-color: #04AA6D;
+	background-color: white;
 	border: none;
 	border-radius: 10px;
 	box-shadow: 0 9px #999;
@@ -97,12 +97,12 @@ button:hover {
 
 .button2 {
 	padding: 10px 25px;
-	font-size: 17px;
+	font-size: 14px;
 	text-align: center;
 	cursor: pointer;
 	outline: none;
 	color:#000000;
-	background-color: #04AA6D;
+	background-color: white;
 	border: none;
 	border-radius: 10px;
 	box-shadow: 0 9px #999;
@@ -135,7 +135,7 @@ h1 {
 
 h2 {
   font-weight: bold;
-  text-shadow: 1px 1px 1px red,
+  text-shadow: 1px 1px 1px black,
                2px 2px 1px black;
 }
 

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			header, footer {
+			  font-size: large;
+			  text-align: center;
+			  padding: 0.3em 0;
+			  background-color: red;
+			  color: #000000;
+			}
+			body {
+			  background-color: white;
+			}
+			* {
+			  box-sizing: border-box;
+			}
+
+			.column {
+			  float: left;
+			  width: 33.33%;
+			  padding: 5px;
+			}
+
+			/* Clearfix (clear floats) */
+			.row::after {
+			  content: "";
+			  clear: both;
+			  display: table;
+			}
+			.button {
+			  padding: 15px 30px;
+			  font-size: 29px;
+			  text-align: center;
+			  cursor: pointer;
+			  outline: none;
+			  color: #000000;
+			  background-color: #1E90FF;
+			  border: none;
+			  border-radius: 15px;
+			  box-shadow: 0 9px #999;
+			}
+		</style>
+	</head>
+		<header>
+			<h1>Carpets</h1>
+		</header>
+	<body>
+		<p><h2>We have a large selection of carpets from some of the UK's top carpet manufacturers which are all of the highest quality.</h2></p>
+		<div class="row">
+			
+				<img src="carpet3.jpg" alt="c2" style="width:100%">
+				<img src="carpet4.jpg" alt="c2" style="width:100%">
+			
+		</div>
+		
+	</body>
+	<footer>
+		<div class="navigation">
+            <a href="home_page.html"><button class="button">Home</button></a>
+		</div>
+	</footer>
+</html>
